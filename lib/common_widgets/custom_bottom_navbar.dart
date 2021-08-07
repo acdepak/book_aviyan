@@ -42,7 +42,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
             title!,
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: index == selectedItem ? 12 : 10,
+              fontSize: index == selectedItem ? 11 : 10,
               color: index == selectedItem ? Colors.black : Colors.grey,
             ),
           ),
